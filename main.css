@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    height: 10vh;
+    font-family: sans-serif;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.menu li{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu li button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgb(234, 66, 94);
+    border: 1px solid rgb(234, 66, 94);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+
+.home-main{
+    /* Orqa fon uchun rasm qo'yish */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(i.webp); 
+    height: 90vh;
+    /* Orqa fondagi rasm qaytarilmasligi uchun  */
+    background-repeat: no-repeat;
+    /* Rasmning o'rtaqa joylashish uchun ishlatiladi */
+    background-position: center;
+    /* Rasmning orqa fon bo'ylab to'liq qoplashi uchuin ishlatiladi */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.home-main h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: 600;
+    /* border: 1px solid black; */
+    width: 40%;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.btn button:nth-child(1){
+    background-color: green;
+    padding: 10px 20px;
+    border: 1px solid green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn button:nth-child(2){
+    background-color: white;
+    padding: 10px 40px;
+    border: 1px solid white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
